@@ -1,12 +1,9 @@
 import numpy as np
-from matplotlib import pyplot
+#from matplotlib import pyplot
 
 
 def sigmoid(x):
     return 1/(1+np.exp(-x))
-
-
-
 
 
 x= np.array([1,0.5])
